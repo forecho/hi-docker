@@ -8,9 +8,16 @@ $ sudo chmod +x /usr/local/bin/docker-compose
 $ docker-compose --version
 ```
 
+## 后台（守护式）启动
+
 ```sh
 $ sudo docker-compose up -d
-$ sudo docker-compose ps
 ```
 
 然后通过 IP 可以访问 WordPress 程序。
+
+## 查看容器信息
+
+```sh
+$ sudo docker-compose ps
+```
