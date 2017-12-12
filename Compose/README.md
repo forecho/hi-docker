@@ -10,4 +10,7 @@ $ docker-compose --version
 
 ```sh
 $ sudo docker-compose up -d
+$ sudo docker-compose ps
 ```
+
+然后通过 IP 可以访问 WordPress 程序。
